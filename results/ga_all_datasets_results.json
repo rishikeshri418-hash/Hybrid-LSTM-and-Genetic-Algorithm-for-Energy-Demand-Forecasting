@@ -1,0 +1,50 @@
+{
+    "pjm": {
+        "name": "PJM Regional Grid (US)",
+        "ga_mape": 1.4925071001052856,
+        "ga_mae": 0.005841111298650503,
+        "ga_loss": 5.7503220887156203e-05,
+        "epochs": 32,
+        "training_time": 4354.240705490112,
+        "best_params": {
+            "lstm_units1": 128,
+            "lstm_units2": 64,
+            "dropout": 0.25,
+            "batch_size": 64
+        },
+        "baseline_mape": 1.5715179443359375,
+        "improvement": 5.027676872250973
+    },
+    "uk": {
+        "name": "UK National Grid",
+        "ga_mape": 5.819276332855225,
+        "ga_mae": 0.05727960914373398,
+        "ga_loss": 0.0032866725232452154,
+        "epochs": 12,
+        "training_time": 1264.0302531719208,
+        "best_params": {
+            "lstm_units1": 96,
+            "lstm_units2": 48,
+            "dropout": 0.2,
+            "batch_size": 64
+        },
+        "baseline_mape": 4.455546855926514,
+        "improvement": -30.607454506168104
+    },
+    "uci": {
+        "name": "UCI Household",
+        "ga_mape": 57.46040344238281,
+        "ga_mae": 0.05104590952396393,
+        "ga_loss": 0.005672129336744547,
+        "epochs": 50,
+        "training_time": 2259.287489414215,
+        "best_params": {
+            "lstm_units1": 64,
+            "lstm_units2": 32,
+            "dropout": 0.3,
+            "batch_size": 32
+        },
+        "baseline_mape": 58.80819320678711,
+        "improvement": 2.291840117694259
+    }
+}
